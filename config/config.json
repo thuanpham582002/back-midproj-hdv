@@ -1,10 +1,17 @@
 {
-  "test":{
+  "test": {
     "PORT": 3000,
-    "MONGODB_URI": "mongodb://mongo:27017/TodoAppTest"
+    "MONGODB_URI": "mongodb://mongo:27017/TodoAppTest",
+    "NODE_ENV": "test"
   },
-  "development":{
+  "development": {
     "PORT": 3000,
-    "MONGODB_URI": "mongodb://mongo:27017/TodoApp"
+    "MONGODB_URI": "mongodb://mongo:27017/TodoApp",
+    "NODE_ENV": "development"
+  },
+  "production": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://mongo:27017/TodoApp",
+    "NODE_ENV": "production"
   }
 }
